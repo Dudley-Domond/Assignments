@@ -1,0 +1,46 @@
+# Standard Deviation
+# Dataset: Social Media Ad Spending (X)
+
+Ad Spending:
+100
+200
+300
+
+
+# Step 1: Calculate the Mean (Average)
+
+Mean = (100 + 200 + 300) / 3
+
+Mean = 600 / 3
+
+Mean = 200
+
+# The average social media ad spending is $200.
+
+# Step 2: Calculate the Squared Differences From the Mean
+
+Mean = 200
+
+(100 - 200)^2 = (-100)^2 = 10,000
+
+(200 - 200)^2 = 0^2 = 0
+
+(300 - 200)^2 = 100^2 = 10,000
+
+# Step 3: Calculate the Average of the Squared Differences (Variance)
+
+Variance = (10,000 + 0 + 10,000) / 3
+
+Variance = 20,000 / 3
+
+Variance = 6,666.67
+
+# Step 4: Take the Square Root of the Variance to Get the Standard Deviation
+
+Standard Deviation = sqrt(6,666.67)
+
+Standard Deviation = 81.65
+
+
+# The standard deviation of social media ad spending is $81.65.
+# This means that the ad spending values typically vary from the mean of $200 by approximately $81.65.

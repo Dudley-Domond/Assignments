@@ -1,0 +1,117 @@
+# Does spending more money on social media ads tend to result in more website visits?
+# Social Media Ad Spending (X) vs. Website Visits (Y)
+
+Data:
+Day 1: X = $100, Y = 500
+Day 2: X = $200, Y = 700
+Day 3: X = $300, Y = 900
+
+
+# Calculate the Covariance
+# Step 1: Calculate the Means (Averages)
+
+Mean of X (Ad Spending):
+
+X̄ = (100 + 200 + 300) / 3
+X̄ = 200
+
+Average Ad Spending = $200
+
+
+Mean of Y (Website Visits):
+
+Ȳ = (500 + 700 + 900) / 3
+Ȳ = 700
+
+Average Website Visits = 700
+
+# Step 2: Calculate Deviations from the Mean
+
+Ad Spending Deviations (X - X̄):
+
+Day 1: 100 - 200 = -100
+Day 2: 200 - 200 = 0
+Day 3: 300 - 200 = 100
+
+
+Website Visit Deviations (Y - Ȳ):
+
+Day 1: 500 - 700 = -200
+Day 2: 700 - 700 = 0
+Day 3: 900 - 700 = 200
+
+# Step 3: Multiply the Deviations
+# Multiply each X deviation by its corresponding Y deviation:
+
+(X - X̄) * (Y - Ȳ)
+
+Day 1: (-100) * (-200) = 20,000
+Day 2: 0 * 0 = 0
+Day 3: 100 * 200 = 20,000
+
+Finally, sum the products:
+
+20,000 + 0 + 20,000 = 40,000
+
+Sum of the products = 40,000
+
+# Step 4: Calculate the Correlation Coefficient
+# Step 4.1: Square Each Deviation
+
+Ad Spending Deviations Squared:
+
+(-100)^2 = 10,000
+0^2 = 0
+100^2 = 10,000
+
+
+Website Visit Deviations Squared:
+
+(-200)^2 = 40,000
+0^2 = 0
+200^2 = 40,000
+
+# Step 4.2: Calculate the Mean of the Squared Deviations
+
+Variance of Ad Spending:
+
+(10,000 + 0 + 10,000) / 3
+= 20,000 / 3
+= 6,666.67
+
+
+Variance of Website Visits:
+
+(40,000 + 0 + 40,000) / 3
+= 80,000 / 3
+= 26,666.67
+
+# Step 4.3: Take the Square Root of the Variance
+to Get the Standard Deviation
+
+Standard Deviation of Ad Spending:
+
+sqrt(6,666.67) = 81.65
+
+
+Standard Deviation of Website Visits:
+
+sqrt(26,666.67) = 163.30
+
+# Step 4.4: Add Values to the Correlation Coefficient Formula
+
+Correlation Coefficient =
+Covariance / (Standard Deviation of X * Standard Deviation of Y)
+
+Correlation Coefficient =
+13,333.33 / (81.65 * 163.30)
+
+Correlation Coefficient =
+13,333.33 / 13,333.45
+
+Correlation Coefficient = 1.00
+
+
+# The correlation coefficient is approximately +1.
+# Positive correlation between social media ad spending and website visits. 
+# As ad spending increases, website visits also increase in a linear direction.
